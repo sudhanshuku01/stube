@@ -1,0 +1,58 @@
+.feed{
+    display: flex;
+    height: 91vh;
+}
+.searchfeed{
+    background:black;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    overflow-x: auto;
+    height: 90%;
+    margin: auto;
+}
+.sidebar > div span{
+  font-weight: bold;
+}
+.sidebar > div {
+    display: flex;
+    width: 150px;
+    color: white;
+    margin: 10px 15px;
+    padding: 7px 5px;
+    border-radius: 40px;
+    cursor: pointer;
+    align-items: center;
+  }
+  #topfeedname{
+    font-size: 25px;
+    color: white;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  @media  only screen and (max-width:600px) {
+    .feed{
+      flex-direction: column;
+    }
+    .sidebar{
+      font-weight: bold;
+      display: flex;
+      flex-direction: row;
+      overflow-x: auto;
+      height: 60px;
+      margin: auto;
+      align-items: center;
+    }
+    #copyrighttext{
+      display: none;
+    }
+    .sidebar > div span{
+      width: 100px;
+    }
+  }
+  #catimage{
+    width: 22px;
+    margin: 0px 6px;
+    filter: invert(1);
+  }

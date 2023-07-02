@@ -1,0 +1,26 @@
+.videoscontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    height: 92%;
+    overflow: auto;
+}
+#video{
+    width: 320px;
+    height: 282px;
+    background: #594a4a;
+    color: white;
+}
+#channeltitle{
+    font-size: 15px;
+    font-family: math;
+    padding: 3px 10px;
+}
+#videotitle{
+    font-weight: bold;
+    padding: 0px 10px;
+}
+#thumbnail{
+    cursor: pointer;
+}

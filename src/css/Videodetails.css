@@ -1,0 +1,43 @@
+.relatedvideocont{
+    display: flex;
+    overflow: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.videodetails{
+    display: flex;   
+}
+.playingvideo{
+    background-color: black;
+    height: fit-content;
+   
+}
+.player-wrapper {
+    width: 640px;
+    height: 360px;
+  }
+
+@media only screen and (min-width:1000px) {
+    .videodetails{
+        height: 100vh;
+    }
+}
+@media only screen and (max-width:1000px) {
+    .playingvideo{
+       margin: auto;
+    }
+    .videodetails{
+        flex-direction: column;
+    }
+    .player-wrapper{
+        width: 100vw;
+        height: 56.25vw;
+    }
+}
+@media only screen and (max-width:400px) {
+    .playingvideo{
+        position:sticky;
+        top: 50px;
+     }
+}

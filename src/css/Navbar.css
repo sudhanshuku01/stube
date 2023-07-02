@@ -1,0 +1,33 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+}
+#appname{
+    color: white;
+    font-size: 23px;
+    cursor: pointer;
+}
+.navbar img{
+    width: 35px;
+    padding: 2px;
+    margin-left: 10px;
+}
+#searchform{
+    display: flex;
+    align-items: center;
+    background-color: rgb(245, 229, 229);
+    height: 30px;
+    border-radius: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+#searchform input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
